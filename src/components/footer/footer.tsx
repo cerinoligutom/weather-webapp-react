@@ -13,7 +13,7 @@ function Footer() {
         <a href={openWeatherMapUrl}>Open Weather Map API</a>.
       </span>
       <span>
-        2019 - Cerino O. Ligutom III -{' '}
+        © 2019 - Cerino O. Ligutom III -{' '}
         <a href={zeferinixWebsiteUrl}>ZeferiniX</a>
       </span>
     </div>
