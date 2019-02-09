@@ -1,0 +1,38 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  background-repeat: no-repeat;
+  background-image: #42bced; /* Old browsers */
+  background-image: -moz-linear-gradient(
+    top,
+    #42bced 0%,
+    #FFF 100%
+  ); /* FF3.6-15 */
+  background-image: -webkit-linear-gradient(
+    top,
+    #42bced 0%,
+    #FFF 100%
+  ); /* Chrome10-25,Safari5.1-6 */
+  background-image: linear-gradient(
+    to bottom,
+    #42bced 0%,
+    #FFF 100%
+  ); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#42bced', endColorstr='#ffffff',GradientType=0 ); /* IE6-9 */
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+html,
+body {
+  height: 100%;
+}

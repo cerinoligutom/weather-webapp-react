@@ -1,0 +1,67 @@
+.weatherForecastItemContainer {
+  display: flex;
+  flex-flow: row wrap;
+  width: 100%;
+
+  .card {
+    width: 100%;
+
+    .cardBody {
+      padding: 0.25rem 1rem;
+    }
+
+    .content {
+      display: flex;
+      flex-flow: row wrap;
+      width: 100%;
+
+      .leftSide {
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: flex-start;
+
+        .dateContainer {
+          display: flex;
+          flex-flow: column wrap;
+          width: 50%;
+        }
+      }
+
+      .rightSide {
+        display: flex;
+        flex-flow: column wrap;
+        justify-content: flex-start;
+
+        .tempMax {
+          background-color: #fac863;
+          padding: 0 0.5rem;
+          border-radius: 0.25rem;
+          color: black;
+        }
+
+        .tempMin {
+          background-color: #353b45;
+          padding: 0 0.5rem;
+          border-radius: 0.25rem;
+          color: white;
+        }
+
+        .weatherDescription {
+          font-style: italic;
+        }
+
+        .row {
+          display: flex;
+          flex-flow: row wrap;
+          flex: 1 1 auto;
+          align-items: center;
+          justify-content: flex-start;
+
+          > div {
+            margin-right: 12px;
+          }
+        }
+      }
+    }
+  }
+}

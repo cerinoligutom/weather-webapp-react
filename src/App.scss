@@ -1,0 +1,47 @@
+.app {
+  display: flex;
+  flex: 1 1 100%;
+  flex-flow: column wrap;
+  align-items: center;
+  height: 100%;
+}
+
+.header {
+  display: flex;
+  flex: 1 1 auto;
+  flex-flow: row wrap;
+  margin-top: 2em;
+  text-align: center;
+}
+
+.search-input-container {
+  display: flex;
+  flex: 1 1 auto;
+  flex-flow: row wrap;
+  align-items: center;
+  margin-top: 2em;
+}
+
+.current-weather-data-container {
+  display: flex;
+  flex: 1 1 auto;
+  flex-flow: row wrap;
+  align-items: center;
+  margin-top: 2em;
+}
+
+.weather-forecast-data-container {
+  display: flex;
+  flex: 1 1 auto;
+  flex-flow: row wrap;
+  align-items: center;
+  margin-top: 2em;
+}
+
+.loading-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 1rem;
+  width: 100%;
+}
