@@ -31,6 +31,8 @@ function App() {
     }
 
     setIsLoading(true);
+    setWeatherForecastData(null);
+    setCurrentWeatherData(null);
 
     Promise.all([
       openWeatherApiService.getCurrentWeatherData(location),
