@@ -38,6 +38,6 @@
   ],
   "devDependencies": {
     "@types/toastr": "^2.1.35",
-    "node-sass": "^4.13.1"
+    "node-sass": "^7.0.0"
   }
 }
